@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #386c5c;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Page-1">
+      <g id="Icon-Set-Filled">
+        <path id="camera" class="cls-1" d="m700,100h-75l-25-50c-14.72-29.07-22.4-50-50-50H250c-27.6,0-36.75,23.85-50,50l-25,50h-75C44.77,100,0,144.77,0,200v400c0,55.23,44.77,100,100,100h600c55.23,0,100-44.77,100-100V200c0-55.23-44.77-100-100-100Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
