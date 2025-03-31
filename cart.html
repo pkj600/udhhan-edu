@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font Awesome {animation}  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+     <!-- <link rel="stylesheet" href="./css/font-awesome.min.css" /> -->
+    <!-- Swiper -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> -->
+     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="icon" type="image/svg"  href="./img/bookfavicon.svg" />
+    <style>
+	.cimg { 
+height: 100%; width: 16.15em;
+}
+.nimg { 
+height: 100%; width: 11.20em;
+}
+/* chatgpt start */
+/* Popup Container */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Popup Content */
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Close Button */
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Book Cover */
+.popup-book-cover {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+/* chatgpt end */
+/* gemni css start */
+#image-search-btn {
+    cursor: pointer;
+    font-size: 1.5rem; /* Adjust size as needed */
+    margin-left: 0.5rem; /* Spacing from search icon */
+    color: #333; /* Icon color */
+}
+
+#image-search-btn:hover {
+    color: #e4d00a; /* Hover color */
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    #image-search-btn {
+        font-size: 1.2rem; /* Smaller on smaller screens */
+        margin-left: 0.25rem;
+    }
+}
+
+.cimg {
+    width: 100%;
+    height: 25rem;
+    object-fit: contain;
+}
+/* gemini css end */
+@media (max-width: 991px) {
+  .cimg { 
+height: 100%; width: 19em;
+}
+.nimg { 
+height: 100%; width: 12.20em;
+}
+}
+@media (max-width: 768px) {
+  .cimg { 
+height: 100%; width: 18.15em;
+}
+.nimg { 
+height: 100%; width: 11.20em;
+}
+}
+@media (max-width: 450px) {
+  .cimg { 
+height: 85%; width: 15.5em;
+}
+.nimg { 
+height: 100%; width: 11em;
+}
+}
+</style>
+</head>
+<body>
+
+     <!-- Header Start  -->
+     <header class="header">
+        <!-- Header 1 Start  -->
+        <div class="header-1">
+          <a href="./index.html" class="logo"><i class="fas fa-book"></i> Udhhan- The flight of eduction</a>
+          <form action="" class="search-form">
+            <input
+              type="search"
+              name=""
+              placeholder="Search..."
+              id="search-box"
+            />
+            <label for="search-box" type="submit" class="fas fa-search"></label>
+          </form>
+          <!-- <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart-circle-check"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a id="login-btn" class="fa-solid fa-user" href="./login.html"></a>
+          </div> -->
+          <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="image-search-btn" class="fas fa-camera"></div>
+            <input type="file" id="image-upload" accept="image/*" style="display: none;"> <a href="#" class="fas fa-heart-circle-check"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a id="login-btn" class="fa-solid fa-user" href="./login.html"></a>
+        </div>
+        </div>
+        <!-- Header 1 End -->
+  
+        <!-- Header 2 Start -->
+        <div class="header-2">
+          <div class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#populer">Popular</a>
+            <a href="#member">Member</a>
+            <a href="#new">New</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+          </div>
+        </div>
+        <!-- Header 2 End -->
+      </header>
+      <!-- Header End -->
+  
+      <!-- Bottom Navbar Start -->
+      <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#about" class="fas fa-people-group"></a>
+        <a href="#populer" class="fas fa-fire"></a>
+        <a href="#member" class="fas fa-user-plus"></a>
+        <a href="#new" class="fas fa-book-bookmark"></a>
+        <a href="#reviews" class="fas fa-star"></a>
+        <a href="#blogs" class="fas fa-newspaper"></a>
+      </div>
+
+    <a href="#new" class="box" data-id="${book.id}" data-title="${book.title}" data-img="${book.img}" data-price="${book.price}">
+    </a>
+
+<div id="cart-container" style="display: none;">
+    <h2>Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: <span id="cart-total">₹0</span></p>
+</div>
+
+<div id="favorites-container" style="display: none;">
+    <h2>Favorites</h2>
+    <ul id="favorites-items"></ul>
+</div>
+
+<script src="./js/cart-favorites.js"></script>
+<script src="./js/search.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

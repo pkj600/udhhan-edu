@@ -1,0 +1,614 @@
+[
+    {
+        "id": "80f921dc",
+        "title": "Artificial Intelligence",
+        "img": {
+            "book_cover_1": "book_covers\\80f921dc.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Artificial Intelligence", "Ai",
+            "Computer Science"
+        ]
+    },
+    {
+        "id": "1d1f550f",
+        "title": "Computer Networking",
+        "img": {
+            "book_cover_1": "book_covers\\1d1f550f.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Networking", "Computer",
+            "Computer Science"
+        ]
+    },
+    {
+        "id": "6fe2ab15",
+        "title": "Cybersecurity Essentials",
+        "img": {
+            "book_cover_1": "book_covers\\6fe2ab15.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Cybersecurity", "Cybersec",
+            "Computer Science"
+        ]
+    },
+    {
+        "id": "0e652f2a",
+        "title": "Introduction to Algorithms 4th Ed",
+        "img": {
+            "book_cover_1": "book_covers\\0e652f2a.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Algorithms", 
+            "Computer Science"
+        ]
+    },
+    {
+        "id": "9316cd4d",
+        "title": "Machine Learning",
+        "img": {
+            "book_cover_1": "book_covers\\9316cd4d.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Machine", "Learning", "Ml",
+            "Computer Science"
+        ]
+    },
+    {
+        "id": "fa4e56c1",
+        "title": "Operating System Concepts",
+        "img": {
+            "book_cover_1": "book_covers\\fa4e56c1.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Operating System", "Systems", "Os", "Operating",
+            "Computer Science"
+        ]
+    },
+    {
+        "id": "a0462257",
+        "title": "web scraping python 2nd Edition",
+        "img": {
+            "book_cover_1": "book_covers\\a0462257.png"
+        },
+        "price": "149+",
+        "tags": [
+            "web", "scraping", "web scraping", "python",
+            "Computer Science"
+        ]
+    },
+    {
+        "id": "4dea5c7c",
+        "title": "1984",
+        "img": {
+            "book_cover_1": "book_covers\\4dea5c7c.png"
+        },
+        "price": "149+",
+        "tags": [
+            "1984",
+            "FICTION"
+        ]
+    },
+    {
+        "id": "148e4c32",
+        "title": "harry potter and the cursed child",
+        "img": {
+            "book_cover_1": "book_covers\\148e4c32.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Harry Potter", "Potter", "Harry","cursed child", "child", 
+            "FICTION"
+        ]
+    },
+    {
+        "id": "b0f89e31",
+        "title": "jane eyre",
+        "img": {
+            "book_cover_1": "book_covers\\b0f89e31.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Jane eyrne",
+            "FICTION"
+        ]
+    },
+    {
+        "id": "8794595d",
+        "title": "pride and prejudice",
+        "img": {
+            "book_cover_1": "book_covers\\8794595d.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Pride", "Prejudice",
+            "FICTION"
+        ]
+    },
+    {
+        "id": "a35857d8",
+        "title": "the great gatsby",
+        "img": {
+            "book_cover_1": "book_covers\\a35857d8.png"
+        },
+        "price": "149+",
+        "tags": [
+            "great", "gatsby",
+            "FICTION"
+        ]
+    },
+    {
+        "id": "3ecff90d",
+        "title": "to kill",
+        "img": {
+            "book_cover_1": "book_covers\\3ecff90d.png"
+        },
+        "price": "149+",
+        "tags": [
+            "to", "Kill", "to kill",
+            "FICTION"
+        ]
+    },
+    {
+        "id": "f96700b4",
+        "title": "war and peace",
+        "img": {
+            "book_cover_1": "book_covers\\f96700b4.png"
+        },
+        "price": "149+",
+        "tags": [
+            "war", "peace", "war and peace",
+            "FICTION"
+        ]
+    },
+    {
+        "id": "8ceacc60",
+        "title": "Rich Dad Poor Dad",
+        "img": {
+            "book_cover_1": "book_covers\\8ceacc60.png"
+        },
+        "price": "0",
+        "tags": [
+            "rich", "dad", "robert", "kiyosaki", "Rich dad poor dad",
+            "Finance"
+        ]
+    },
+    {
+        "id": "8ae93cda",
+        "title": "1776 David McCullough",
+        "img": {
+            "book_cover_1": "book_covers\\8ae93cda.png"
+        },
+        "price": "149+",
+        "tags": [
+            "1776", "David", "McCullough",
+            "HISTORY"
+        ]
+    },
+    {
+        "id": "4a9b3adf",
+        "title": "constituion of india",
+        "img": {
+            "book_cover_1": "book_covers\\4a9b3adf.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Constitution", "legal",
+            "HISTORY"
+        ]
+    },
+    {
+        "id": "ca561c48",
+        "title": "hind swaraj",
+        "img": {
+            "book_cover_1": "book_covers\\ca561c48.png"
+        },
+        "price": "149+",
+        "tags": [
+            "hind","swaraj",
+            "HISTORY"
+        ]
+    },
+    {
+        "id": "9d8d789a",
+        "title": "indian history",
+        "img": {
+            "book_cover_1": "book_covers\\9d8d789a.png"
+        },
+        "price": "149+",
+        "tags": [
+            "indian",
+            "HISTORY"
+        ]
+    },
+    {
+        "id": "085aa2c8",
+        "title": "The Diary of a Young Girl",
+        "img": {
+            "book_cover_1": "book_covers\\085aa2c8.png"
+        },
+        "price": "149+",
+        "tags": [
+            "diary of", "young", "girl",
+            "HISTORY"
+        ]
+    },
+    {
+        "id": "9f286545",
+        "title": "An Exorcist",
+        "img": {
+            "book_cover_1": "book_covers\\9f286545.png"
+        },
+        "price": "149+",
+        "tags": [
+            "exorcist", "exocisim",
+            "HORROR"
+        ]
+    },
+    {
+        "id": "a0126546",
+        "title": "dracula",
+        "img": {
+            "book_cover_1": "book_covers\\a0126546.png"
+        },
+        "price": "149+",
+        "tags": [
+            "dracula", "vampire",
+            "HORROR"
+        ]
+    },
+    {
+        "id": "a1f23e95",
+        "title": "haunting of hill house",
+        "img": {
+            "book_cover_1": "book_covers\\a1f23e95.png"
+        },
+        "price": "149+",
+        "tags": [
+            "haunt", "haunting", "hill house", "house",
+            "HORROR"
+        ]
+    },
+    {
+        "id": "a6602be0",
+        "title": "hell house",
+        "img": {
+            "book_cover_1": "book_covers\\a6602be0.png"
+        },
+        "price": "149+",
+        "tags": [
+            "hell house", "house", "hell", 
+            "HORROR"
+        ]
+    },
+    {
+        "id": "9e62a067",
+        "title": "Pet Sematary",
+        "img": {
+            "book_cover_1": "book_covers\\9e62a067.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Pet", "Sematary", "Pet Sematary",
+            "HORROR"
+        ]
+    },
+    {
+        "id": "9112a9bf",
+        "title": "Atomic Habits",
+        "img": {
+            "book_cover_1": "book_covers\\9112a9bf.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Atomic", "Habits", "James Clear", "Self",
+            "MOTIVATION"
+        ]
+    },
+    {
+        "id": "26c314ff",
+        "title": "Can't Hurt Me",
+        "img": {
+            "book_cover_1": "book_covers\\26c314ff.png"
+        },
+        "price": "149+",
+        "tags": [
+            "canthurt", "can't", "hurt",
+            "MOTIVATION"
+        ]
+    },
+    {
+        "id": "885fc2bf",
+        "title": "The 7 Habits of Highly Effective Peo",
+        "img": {
+            "book_cover_1": "book_covers\\885fc2bf.png"
+        },
+        "price": "149+",
+        "tags": [
+            "7 Habbits", "habits", "effective", "Self", "improvement",
+            "MOTIVATION"
+        ]
+    },
+    {
+        "id": "3f7f8774",
+        "title": "the power of positive thinking",
+        "img": {
+            "book_cover_1": "book_covers\\3f7f8774.png"
+        },
+        "price": "149+",
+        "tags": [
+            "positive", "thinking", "power", "power of positive thinking",
+            "MOTIVATION"
+        ]
+    },
+    {
+        "id": "2bbefac9",
+        "title": "Think And Grow Rich",
+        "img": {
+            "book_cover_1": "book_covers\\2bbefac9.png"
+        },
+        "price": "149+",
+        "tags": [
+            "rich", "think","grow", "think and grow rich",
+            "MOTIVATION", "Finance"
+        ]
+    },
+    {
+        "id": "6932d8ff",
+        "title": "You Can Win",
+        "img": {
+            "book_cover_1": "book_covers\\6932d8ff.png"
+        },
+        "price": "149+",
+        "tags": [
+            "You","win", "you can win", "self",
+            "MOTIVATION"
+        ]
+    },
+    {
+        "id": "d960d7b6",
+        "title": "angels and demons",
+        "img": {
+            "book_cover_1": "book_covers\\d960d7b6.png"
+        },
+        "price": "149+",
+        "tags": [
+            "hell", "heaven", "angel and demons", "demons", "angels",
+            "Mystery"
+        ]
+    },
+    {
+        "id": "f7a15b07",
+        "title": "Gone Girl",
+        "img": {
+            "book_cover_1": "book_covers\\f7a15b07.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Gone", "Girl", "Gone Girll",
+            "Mystery"
+        ]
+    },
+    {
+        "id": "7a84a872",
+        "title": "The Adventures of Sherlock Holmes",
+        "img": {
+            "book_cover_1": "book_covers\\7a84a872.png"
+        },
+        "price": "149+",
+        "tags": [
+            "sher","sherlock", "lock",
+            "Mystery"
+        ]
+    },
+    {
+        "id": "cbbac0b5",
+        "title": "The Silent Patient",
+        "img": {
+            "book_cover_1": "book_covers\\cbbac0b5.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Silent", "Patient", 
+            "Mystery"
+        ]
+    },
+    {
+        "id": "0322986e",
+        "title": "the girl with the dragon tattoo",
+        "img": {
+            "book_cover_1": "book_covers\\0322986e.png"
+        },
+        "price": "149+",
+        "tags": [
+            "girl", "dragon", "tattoo",
+            "Mystery"
+        ]
+    },
+    {
+        "id": "7fb21f4e",
+        "title": "Bhagavad Gita",
+        "img": {
+            "book_cover_1": "book_covers\\7fb21f4e.png"
+        },
+        "price": "149+",
+        "tags": [
+            "bhagavad","gita", "bhagvad", "geeta", "hindi", "ancient Learning",
+            "Religion"
+        ]
+    },
+    {
+        "id": "4d375988",
+        "title": "mahabharat",
+        "img": {
+            "book_cover_1": "book_covers\\4d375988.png"
+        },
+        "price": "149+",
+        "tags": [
+            "mahabharata", "mahabharat", "shree krishna", "Krishn", "krishna",
+            "Religion"
+        ]
+    },
+    {
+        "id": "bb04fa2c",
+        "title": "manu smriti",
+        "img": {
+            "book_cover_1": "book_covers\\bb04fa2c.png"
+        },
+        "price": "149+",
+        "tags": [
+            "manu", "smriti",
+            "Religion"
+        ]
+    },
+    {
+        "id": "d8048dab",
+        "title": "Shrimad Valmiki Ramayana (Hindi Ed)",
+        "img": {
+            "book_cover_1": "book_covers\\d8048dab.png"
+        },
+        "price": "149+",
+        "tags": [
+            "valmiki", "ramayana", "shrimad", "hindi",
+            "Religion"
+        ]
+    },
+    {
+        "id": "8d7bdb3a",
+        "title": "vishnu sahasranama stotram hindi",
+        "img": {
+            "book_cover_1": "book_covers\\8d7bdb3a.png"
+        },
+        "price": "149+",
+        "tags": [
+            "vishnu", "hindi", "sahasranama", "stotram",
+            "Religion"
+        ]
+    },
+    {
+        "id": "b81061c4",
+        "title": "2 states",
+        "img": {
+            "book_cover_1": "book_covers\\b81061c4.png"
+        },
+        "price": "149+",
+        "tags": [
+            "States", "2 States",
+            "ROMANCE"
+        ]
+    },
+    {
+        "id": "1a7eaea9",
+        "title": "devdas",
+        "img": {
+            "book_cover_1": "book_covers\\1a7eaea9.png"
+        },
+        "price": "149+",
+        "tags": [
+            "devdas", "das",
+            "ROMANCE"
+        ]
+    },
+    {
+        "id": "8794595d",
+        "title": "pride and prejudice",
+        "img": {
+            "book_cover_1": "book_covers\\8794595d.png"
+        },
+        "price": "149+",
+        "tags": [
+            "pride", "Prejudice",
+            "ROMANCE"
+        ]
+    },
+    {
+        "id": "ddb801f4",
+        "title": "some one like you",
+        "img": {
+            "book_cover_1": "book_covers\\ddb801f4.png"
+        },
+        "price": "149+",
+        "tags": [
+            "someone", "like", "you", "some", "one",
+            "ROMANCE"
+        ]
+    },
+    {
+        "id": "b55633ad",
+        "title": "the notebook",
+        "img": {
+            "book_cover_1": "book_covers\\b55633ad.png"
+        },
+        "price": "149+",
+        "tags": [
+            "notebook", "book", "note", "the",
+            "ROMANCE"
+        ]
+    },
+    {
+        "id": "8ace65c3",
+        "title": "Aesops fables",
+        "img": {
+            "book_cover_1": "book_covers\\8ace65c3.png"
+        },
+        "price": "149+",
+        "tags": [
+            "Aesops","Fabies",
+            "STORY"
+        ]
+    },
+    {
+        "id": "a214717a",
+        "title": "Arabian Nights",
+        "img": {
+            "book_cover_1": "book_covers\\a214717a.png"
+        },
+        "price": "149+",
+        "tags": [
+            "arabian", "nights", "knight", "arabic","mystery",
+            "STORY"
+        ]
+    },
+    {
+        "id": "e7ecf12f",
+        "title": "Panchatantra ",
+        "img": {
+            "book_cover_1": "book_covers\\e7ecf12f.png"
+        },
+        "price": "149+",
+        "tags": [
+            "tantra", "panch", "pancha",
+            "STORY"
+        ]
+    },
+    {
+        "id": "a19106c6",
+        "title": "The Blue Umbrella by Ruskin Bond",
+        "img": {
+            "book_cover_1": "book_covers\\a19106c6.png"
+        },
+        "price": "149+",
+        "tags": [
+            "content", "bond", "ruskin", "umbrella", "blue",
+            "STORY"
+        ]
+    },
+    {
+        "id": "d0f494e5",
+        "title": "The Jungle Books",
+        "img": {
+            "book_cover_1": "book_covers\\d0f494e5.png"
+        },
+        "price": "149+",
+        "tags": [
+            "jungle books", "jungle", "kids", "for kids", "storybooks",
+            "STORY"
+        ]
+    }
+]
